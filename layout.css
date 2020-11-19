@@ -1,0 +1,278 @@
+#start{
+			animation: fade 12s linear;
+		}
+
+		@keyframes fade{
+			0%{
+				opacity: 1;
+			}
+			60%{
+				opacity: 1;
+			}
+			90%{
+				opacity: 0;
+			}
+			100%{
+				opacity:0;
+			}
+		}
+		nav{
+			background-color: #ffc885;
+		}
+		
+		body, pre, a {
+		    font-family: 'Lobster';
+		    font-size: 22px;
+		    text-align: center;
+		}
+		#all{
+			background-image: url('https://i.pinimg.com/originals/fa/61/b3/fa61b35833afaf9b652287aac169bb4f.jpg');
+		    background-size: 100%
+
+		}
+		.for_back{
+			background-image: url('https://i.pinimg.com/originals/fa/61/b3/fa61b35833afaf9b652287aac169bb4f.jpg');
+		    background-size: 100%
+		}
+		@media (max-width: 500px){
+			body, pre{
+				font-size: 15px
+			}
+		}
+
+		#main_pager{
+			background-color: white;
+			width: 200px;
+			height: 200px;
+		}
+
+		* {
+			box-sizing: border-box
+		}
+
+		pre{
+			color: black;
+		}
+
+		.nav-link{
+			font-size: 1em
+		}
+
+		
+
+		pre{
+
+			color: black;
+			text-align: right;
+		}
+
+		#nav_head:hover{
+			text-decoration: underline;
+		}
+		
+		#link_to_introduction:hover{
+			background-color: #97fcc5;
+			text-decoration: underline;
+		}
+
+		#link_to_main:hover{
+			background-color: #9cd1ff;
+			text-decoration: underline;
+		}
+
+		#link_to_conclusion:hover{
+			background-color: #ff9ca5;
+			text-decoration: underline;
+		}
+
+		
+		/* Caption text */
+		.text {
+		  color: black;
+		  font-size: 15px;
+		  text-align: center;
+		  position: absolute;
+		}
+
+		#page_1{
+			text-align: left
+			padding: 10px;
+		}
+
+		.slides{
+			animation: movement 5.5s linear;
+			animation-play-state: paused;
+
+		}
+
+svg{
+	animation: appear 1s ease;
+}
+
+#diwali{
+		animation: pic 2s ease;
+	}
+
+	#eid{
+		animation: pic 3s ease;
+	}
+	#christmas{
+		animation: pic 4s ease;
+	} 
+
+	#baisakhi{
+		animation: pic 5s ease;
+	} 
+
+	#mixed{
+		animation: pic 6s ease;
+	}
+
+
+
+	#INDIAS{
+		animation: pic 7s ease;
+	}
+
+
+	#SPECIALTY{
+		animation: pic 8s ease;
+	}
+
+	#FESTIVALS{
+		animation: pic 10s ease;
+	}
+
+	#AND{
+		animation: pic 11s ease;
+	}
+
+	#FRATERNITY{
+		animation: pic 12s ease;
+	}
+
+		@keyframes pic{
+		0%{
+			opacity: 0
+		}
+
+		50%{
+			opacity: 0
+		}
+		100%{
+			opacity: 1
+		}
+	}
+
+#start{
+	background: url('https://i.pinimg.com/736x/a9/80/22/a98022cdb8b339e11542132b6428ac92.jpg');
+	background-size:100%;
+	height: 100%;
+}
+
+
+
+		@keyframes movement{
+			0%{
+				transform: translateX(-15%);
+				opacity: 0;
+			}
+			20%{
+				transform: translateX(0%);
+				opacity: 1;
+			}
+			85%{
+				transform: translateX(0%);
+				opacity: 1;
+			}
+			100%{
+				transform: translateX(15%);
+				opacity: 0;
+			}
+		}
+
+
+	strong{
+		font-weight: 50;
+	}
+
+	#footer, .credit-links, .footer-copyright{
+		font-family: 'Verdana';
+		font-size: 12px;
+		background-color: #f2f2f2;
+	}
+
+
+
+	#orange{
+		animation: stripe 2s linear;
+
+	}
+
+	#green{
+		animation: stripe 2s linear ;
+		
+	}
+
+	#white{
+		animation: stripe 2s linear ;
+	}
+
+	#Spoke1, #Spoke2, #Spoke3, #Spoke4{
+		animation: stripe 2s linear ;
+	}
+
+
+	#Center{
+		animation: appear 2s ease;
+	}
+
+
+	#om{
+		animation: appear 4s ease;
+	}
+
+	#islam{
+		animation: appear 5s ease;
+	}
+	#christian{
+		animation: appear 6s ease;
+	} 
+
+	#buddhist{
+		animation: appear 7s ease;
+	} 
+
+	#jainism{
+		animation: appear 8s ease;
+	}
+
+	#sikh{
+		animation: appear 9s ease;
+	} 
+
+
+	@keyframes stripe{
+		0%{transform: translateY(-100%);
+			opacity: 0
+		}
+		100%{
+			transform: translateY(0%);
+			opacity: 1
+		}
+	}
+
+	@keyframes appear{
+		0%{
+			transform: translateY(-100%);
+			opacity: 0
+		}
+
+		50%{
+			transform: translateY(100%);
+			opacity: 0
+		}
+		100%{
+			opacity: 1
+		}
+	}
